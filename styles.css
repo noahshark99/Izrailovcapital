@@ -562,13 +562,14 @@ section { position: relative; }
   gap: 0.875rem;
   font-family: var(--sans);
   font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.28em;
+  font-weight: 600;
+  letter-spacing: 0.32em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: rgba(251, 251, 250, 0.9);
+  text-shadow: 0 1px 12px rgba(0,0,0,0.5);
   animation: fadeIn 1s ease 0.3s backwards;
 }
-.hero__eyebrow::before { content: ''; width: 32px; height: 1px; background: var(--gold); }
+.hero__eyebrow::before { content: ''; width: 32px; height: 1px; background: rgba(251, 251, 250, 0.7); }
 
 .hero__title {
   font-family: var(--serif);
